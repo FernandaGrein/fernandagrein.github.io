@@ -1,9 +1,9 @@
 <style>
         body {
-            background-color: rgba(18, 243, 243, 0.116);
+         
         }
 
-        body,
+        body{ background-color: rgba(18, 243, 243, 0.100);}
         li {
             font-family: 'Zilla Slab', serif;
             font-size: 20px;
