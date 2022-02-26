@@ -95,11 +95,11 @@
          max-width: 40%;
          display: inline-block;
          background-color: rgba(18, 243, 243, 0.144);
-        padding-top: 40px;
-        padding-right: 20px;
+        padding: 30px;
+        line-height: 25px;
         vertical-align: center;
         border-radius: 10%;
-        margin-left: 10%;
+        margin-left: 5%;
          
         }
         .firstpartfoto {
@@ -108,7 +108,7 @@
             margin-left: 10%;
             width: 400px;
             background-color:  rgba(18, 243, 243, 0.144);
-            padding:0 20px;
+            padding: 20px;
             border-radius: 10%;
 
        
