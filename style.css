@@ -1,9 +1,6 @@
 <style>
-        body {
-         
-        }
 
-        body{ background-color: rgba(18, 243, 243, 0.100);}
+
         li {
             font-family: 'Zilla Slab', serif;
             font-size: 20px;
@@ -88,6 +85,7 @@
 
         .firstpart { display: inline-block; vertical-align: middle;
         }
+
         .firstpartname { text-align: center;
         }
         .firstparttext {
@@ -95,7 +93,7 @@
          max-width: 40%;
          display: inline-block;
          background-color: rgba(18, 243, 243, 0.144);
-        padding: 30px;
+        padding: 23px;
         line-height: 25px;
         vertical-align: center;
         border-radius: 10%;
@@ -105,12 +103,17 @@
         .firstpartfoto {
             max-width: 40%;
             display: inline-block;
-            margin-left: 10%;
-            width: 400px;
             background-color:  rgba(18, 243, 243, 0.144);
             padding: 20px;
             border-radius: 10%;
-
-       
+            float: right ;
+            margin-right: 10%;
         }
+        ul li:nth-child(odd) { text-decoration:underline;
+        }
+
+        body {
+            background-color: rgb(18, 243, 243, 0.100);
+            margin: 5%;
+            }
     </style>
